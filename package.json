@@ -1,6 +1,6 @@
 {
   "name": "@bu0nq/scss.extend.style.selectors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Package for integrating SCSS.Extend.Style.Selectors",
   "main": "selectors.scss",
   "scripts": {
