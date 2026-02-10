@@ -1,0 +1,5 @@
+%style-text-12 {
+    &:is([data-style-text="12"]) {
+        font-size: 12px;
+    }
+}
