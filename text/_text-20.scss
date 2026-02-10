@@ -1,0 +1,5 @@
+%style-text-20 {
+    &:is([data-style-text="20"]) {
+        font-size: 20px;
+    }
+}
