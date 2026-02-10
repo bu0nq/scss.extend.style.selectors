@@ -1,0 +1,5 @@
+%style-rounded-full {
+    &:is([data-style-rounded="full"]) {
+        border-radius: 100%;
+    }
+}

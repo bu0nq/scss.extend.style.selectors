@@ -1,0 +1,5 @@
+%style-min-w-auto {
+    &:is([data-style-min-w="auto"]) {
+        min-width: auto;
+    }
+}

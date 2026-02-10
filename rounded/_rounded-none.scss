@@ -1,0 +1,5 @@
+%style-rounded-none {
+    &:is([data-style-rounded="none"]) {
+        border-radius: 0;
+    }
+}

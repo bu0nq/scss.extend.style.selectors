@@ -1,0 +1,5 @@
+%style-w-full {
+    &:is([data-style-w="full"]) {
+        width: 100%;
+    }
+}

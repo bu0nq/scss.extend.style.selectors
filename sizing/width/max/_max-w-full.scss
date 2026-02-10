@@ -1,0 +1,5 @@
+%style-max-w-full {
+    &:is([data-style-max-w="full"]) {
+        max-width: 100%;
+    }
+}

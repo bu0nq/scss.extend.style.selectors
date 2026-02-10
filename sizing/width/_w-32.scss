@@ -1,0 +1,5 @@
+%style-w-32 {
+    &:is([data-style-w="32"]) {
+        width: 32px;
+    }
+}

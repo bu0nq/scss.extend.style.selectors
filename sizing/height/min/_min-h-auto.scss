@@ -1,0 +1,5 @@
+%style-min-h-auto {
+    &:is([data-style-min-h="auto"]) {
+        min-height: auto;
+    }
+}

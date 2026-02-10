@@ -1,0 +1,5 @@
+%style-rounded-4 {
+    &:is([data-style-rounded="4"]) {
+        border-radius: 4px;
+    }
+}

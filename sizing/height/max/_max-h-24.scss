@@ -1,0 +1,5 @@
+%style-max-h-24 {
+    &:is([data-style-max-h="24"]) {
+        max-height: 24px;
+    }
+}

@@ -1,0 +1,5 @@
+%style-max-h-none {
+    &:is([data-style-max-h="none"]) {
+        max-height: none;
+    }
+}

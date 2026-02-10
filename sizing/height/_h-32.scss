@@ -1,0 +1,5 @@
+%style-h-32 {
+    &:is([data-style-h="32"]) {
+        height: 32px;
+    }
+}

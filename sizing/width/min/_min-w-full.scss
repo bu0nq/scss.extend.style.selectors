@@ -1,0 +1,5 @@
+%style-min-w-full {
+    &:is([data-style-min-w="full"]) {
+        min-width: 100%;
+    }
+}

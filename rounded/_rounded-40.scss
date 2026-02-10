@@ -1,0 +1,5 @@
+%style-rounded-40 {
+    &:is([data-style-rounded="40"]) {
+        border-radius: 40px;
+    }
+}

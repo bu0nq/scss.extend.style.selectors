@@ -1,0 +1,5 @@
+%style-w-40 {
+    &:is([data-style-w="40"]) {
+        width: 40px;
+    }
+}

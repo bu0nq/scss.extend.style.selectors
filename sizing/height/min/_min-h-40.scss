@@ -1,0 +1,5 @@
+%style-min-h-40 {
+    &:is([data-style-min-h="40"]) {
+        min-height: 40px;
+    }
+}

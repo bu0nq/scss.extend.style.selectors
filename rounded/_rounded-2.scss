@@ -1,0 +1,5 @@
+%style-rounded-2 {
+    &:is([data-style-rounded="2"]) {
+        border-radius: 2px;
+    }
+}

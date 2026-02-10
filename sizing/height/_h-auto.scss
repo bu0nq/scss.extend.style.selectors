@@ -1,0 +1,5 @@
+%style-h-auto {
+    &:is([data-style-h="auto"]) {
+        height: auto;
+    }
+}

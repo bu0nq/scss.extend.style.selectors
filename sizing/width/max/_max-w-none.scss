@@ -1,0 +1,5 @@
+%style-max-w-none {
+    &:is([data-style-max-w="none"]) {
+        max-width: none;
+    }
+}

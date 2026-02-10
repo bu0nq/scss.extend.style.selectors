@@ -1,0 +1,5 @@
+%style-min-w-36 {
+    &:is([data-style-min-w="36"]) {
+        min-width: 36px;
+    }
+}

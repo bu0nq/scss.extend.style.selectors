@@ -1,0 +1,5 @@
+%style-min-h-full {
+    &:is([data-style-min-h="full"]) {
+        min-height: 100%;
+    }
+}

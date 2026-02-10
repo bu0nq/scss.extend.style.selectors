@@ -1,0 +1,5 @@
+%style-max-w-32 {
+    &:is([data-style-max-w="32"]) {
+        max-width: 32px;
+    }
+}

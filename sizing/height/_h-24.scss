@@ -1,0 +1,5 @@
+%style-h-24 {
+    &:is([data-style-h="24"]) {
+        height: 24px;
+    }
+}
