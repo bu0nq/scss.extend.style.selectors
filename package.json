@@ -1,28 +1,41 @@
 {
-  "name": "@bu0nq/scss.grid",
+  "name": "@bu0nq/scss.mixins.grids",
   "version": "0.1.0",
-  "description": "Package for integrating SCSS.Grid",
-  "main": "grid.scss",
+  "description": "Package for integrating SCSS.Mixin.Grid",
+  "keywords": [
+    "scss",
+    "grid",
+    "mixin",
+    "style",
+    "frontend"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "bu0nq",
+    "email": "hello@bu0nq.ru"
+  },
+  "main": "grids.scss",
+  "files": [
+    "grids.scss",
+    "variables.scss.scss"
+  ],
+  "exports": {
+    ".": {
+      "sass": "./grids.scss",
+      "default": "./grids.scss"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bu0nq/scss.grid.git"
+    "url": "git+https://github.com/bu0nq/scss.mixins.grids.git"
   },
-  "keywords": [
-    "scss",
-    "grid"
-  ],
-  "author": {
-    "name": "bu0nq",
-    "email": "hello@bu0nq.ru"
-  },
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bu0nq/scss.grid/issues"
+    "url": "https://github.com/bu0nq/scss.mixins.grids/issues"
   },
-  "homepage": "https://github.com/bu0nq/scss.grid#readme",
+  "homepage": "https://github.com/bu0nq/scss.mixins.grids#readme",
   "publishConfig": {
     "access": "public"
   }
