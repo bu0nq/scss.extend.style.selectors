@@ -1,20 +1,18 @@
 {
-  "name": "@bu0nq/scss.extend.style.selectors",
-  "version": "0.1.1",
-  "description": "Package for integrating SCSS.Extend.Style.Selectors",
-  "main": "selectors.scss",
+  "name": "@bu0nq/scss.grid",
+  "version": "0.1.0",
+  "description": "Package for integrating SCSS.Grid",
+  "main": "grid.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bu0nq/scss.extend.style.selectors.git"
+    "url": "git+https://github.com/bu0nq/scss.grid.git"
   },
   "keywords": [
     "scss",
-    "extend",
-    "style",
-    "selectors"
+    "grid"
   ],
   "author": {
     "name": "bu0nq",
@@ -22,9 +20,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bu0nq/scss.extend.style.selectors/issues"
+    "url": "https://github.com/bu0nq/scss.grid/issues"
   },
-  "homepage": "https://github.com/bu0nq/scss.extend.style.selectors#readme",
+  "homepage": "https://github.com/bu0nq/scss.grid#readme",
   "publishConfig": {
     "access": "public"
   }
