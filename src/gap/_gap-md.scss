@@ -1,0 +1,27 @@
+@use "../../variables";
+
+@mixin gap-md($is-class-gap: variables.$is-class-gap, $is-data-gap: variables.$is-data-gap) {
+  @if $is-class-gap {
+    @include class-gap-md {
+      @content;
+    }
+  }
+
+  @if $is-data-gap {
+    @include data-gap-md {
+      @content;
+    }
+  }
+}
+
+@mixin class-gap-md {
+  &_grid-gap-md {
+    @content;
+  }
+}
+
+@mixin data-gap-md {
+  &[data-grid-gap="md"] {
+    @content;
+  }
+}
