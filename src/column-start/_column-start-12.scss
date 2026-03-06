@@ -1,0 +1,29 @@
+@use "../../variables";
+
+@mixin column-start-12($is-class-column-start: variables.$is-class-column-start, $is-data-column-start: variables.$is-data-column-start) {
+  @if $is-class-column-start {
+    @include class-column-start-12 {
+      @content;
+    }
+  }
+
+  @if $is-data-column-start {
+    @include data-column-start-12 {
+      @content;
+    }
+  }
+}
+
+@mixin class-column-start-12 {
+  &_grid-column-start-12 {
+    grid-column-start: 12;
+    @content;
+  }
+}
+
+@mixin data-column-start-12 {
+  &[data-grid-column-start="12"] {
+    grid-column-start: 12;
+    @content;
+  }
+}
